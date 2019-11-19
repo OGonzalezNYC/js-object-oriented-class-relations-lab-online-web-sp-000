@@ -99,6 +99,8 @@ class Passenger {
     // return store.trips.filter(function(trip) {
     //   return trip.passengerId === this.id
     // }.bind(this))
+    return store.trips.filter (trip =>
+    trip.passengerId === this.id);
   }
   
   
